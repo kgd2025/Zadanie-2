@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Спорт в России</title>
+    <link rel="stylesheet" href="styles/task2.css">
+</head>
+<body>
+    <h1>Спорт в России</h1>
+    <p>Добро пожаловать на сайт «Спорт в России»! Здесь вы найдёте информацию о самых интересных спортивных направлениях нашей страны. Россия — огромная страна с множеством возможностей для занятий спортом: от горнолыжных курортов до центров единоборств и стадионов мирового уровня.</p>
+
+    <h2>Популярные направления для занятий спортом:</h2>
+    <ol>
+        <li>Горные лыжи (Красная Поляна)</li>
+        <li>Единоборства (Москва)</li>
+        <li>Футбольные туры (Санкт-Петербург)</li>
+        <li>Йога и wellness (Байкал)</li>
+        <li>Хоккейные лагеря (Сочи)</li>
+    </ol>
+
+    <h2>Сравнение направлений</h2>
+    <table>
+        <tr>
+            <th>Направление</th>
+            <th>Лучшее время для посещения</th>
+            <th>Средняя стоимость участия</th>
+        </tr>
+        <tr>
+            <td>Горные лыжи (Красная Поляна)</td>
+            <td>Декабрь – март</td>
+            <td>25 000 руб.</td>
+        </tr>
+        <tr>
+            <td>Единоборства (Москва)</td>
+            <td>Круглый год</td>
+            <td>10 000 руб.</td>
+        </tr>
+        <tr>
+            <td>Футбольные туры (СПб)</td>
+            <td>Май – сентябрь</td>
+            <td>15 000 руб.</td>
+        </tr>
+        <tr>
+            <td>Йога и wellness (Байкал)</td>
+            <td>Июнь – август</td>
+            <td>30 000 руб.</td>
+        </tr>
+        <tr>
+            <td>Хоккейные лагеря (Сочи)</td>
+            <td>Июнь – август</td>
+            <td>35 000 руб.</td>
+        </tr>
+    </table>
+
+    <h2>Забронировать спортивный тур</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="direction">Выберите направление:</label>
+            <select id="direction" name="direction" required>
+                <option value="">— Выберите направление —</option>
+                <option value="ski">Горные лыжи (Красная Поляна)</option>
+                <option value="martial">Единоборства (Москва)</option>
+                <option value="football">Футбольные туры (СПб)</option>
+                <option value="yoga">Йога и wellness (Байкал)</option>
+                <option value="hockey">Хоккейные лагеря (Сочи)</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Дополнительные услуги:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="transfer"> Трансфер</label>
+                <label><input type="checkbox" name="insurance"> Страховка</label>
+                <label><input type="checkbox" name="guide"> Гид</label>
+            </div>
+        </div>
+
+        <button type="submit" class="btn">Отправить заявку</button>
+        <button type="reset" class="btn reset">Очистить форму</button>
+    </form>
+
+    <div class="contact-info">
+        <h3>Контакты</h3>
+        <p>Телефон: +7 (999) 123-45-67</p>
+        <p>Email: info@sport-russia.ru</p>
+        <p>Адрес: Москва, ул. Спортивная, д. 10</p>
+        <p>© 2025 Спорт в России. Все права защищены.</p>
+    </div>
+</body>
+</html>
